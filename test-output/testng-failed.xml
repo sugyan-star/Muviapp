@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Int@027412"/>
+    <parameter name="email" value="sugyanswain@gmail.com"/>
+    <parameter name="content" value="Muvi.com Best Organization"/>
+    <classes>
+      <class name="muvilog.muviLogin">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="Zontent_Verify" invocation-numbers="0"/>
+          <include name="Content_Library" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- muvilog.muviLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Content Submitted Sucessfylly]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-03-27T00:22:02Z" name="Suite" finished-at="2020-03-27T00:23:17Z" duration-ms="74163">
+    <groups>
+    </groups>
+    <test started-at="2020-03-27T00:22:02Z" name="Test" finished-at="2020-03-27T00:23:17Z" duration-ms="74163">
+      <class name="muvilog.muviLogin">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:muvilog.muviLogin@42e25b0b]" started-at="2020-03-27T00:22:02Z" name="launchBrowser" finished-at="2020-03-27T00:22:16Z" duration-ms="14059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:muvilog.muviLogin@42e25b0b]" started-at="2020-03-27T00:22:17Z" name="login" finished-at="2020-03-27T00:22:29Z" duration-ms="12958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sugyanswain@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Int@027412]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Content_Library(java.lang.String)[pri:1, instance:muvilog.muviLogin@42e25b0b]" started-at="2020-03-27T00:22:29Z" name="Content_Library" finished-at="2020-03-27T00:23:06Z" duration-ms="36578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muvi.com Best Organization]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Content Submitted Sucessfylly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Content_Library -->
+        <test-method signature="Zontent_Verify(java.lang.String)[pri:2, instance:muvilog.muviLogin@42e25b0b]" started-at="2020-03-27T00:23:06Z" name="Zontent_Verify" finished-at="2020-03-27T00:23:15Z" duration-ms="9258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muvi.com Best Organization]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zontent_Verify -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:muvilog.muviLogin@42e25b0b]" started-at="2020-03-27T00:23:15Z" name="terminateBrowser" finished-at="2020-03-27T00:23:17Z" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- muvilog.muviLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="email" value="sugyanswain@gmail.com"/>
+  <parameter name="password" value="Int@027412"/>
+  <parameter name="content" value="Muvi.com Best Organization"/>
+  <parameter name="contentt" value="Muvi.com Best Organization"/>
+    <classes>
+      <class name="muvilog.muviLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
